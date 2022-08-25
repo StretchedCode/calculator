@@ -8,7 +8,19 @@ body{
 }
 
 .container{
-    height: 500px;
+    display: flex;
+    height: 700px;
+    width: 400px;
+    background-color: whitesmoke;
+    justify-content: center;
+}
+
+.display{
+    height: 50px;
     width: 300px;
-    background-color: white;
+    background-color: lightgrey;
+    border-color: black;
+    border-radius: 3px;
+    border-top: 5px;
+    border: thin solid black;
 }
