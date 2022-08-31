@@ -19,7 +19,7 @@ button{
 
 .container{
     display: flex;
-    height: 600px;
+    height: 750px;
     width: 400px;
     background-color: lightgoldenrodyellow;
     flex-wrap: wrap;
@@ -48,7 +48,8 @@ button{
     flex-wrap: wrap;
 }
 
-.number-button{
+.number-button,
+#clear{
    padding: 30px;
    margin: 30px;
 }
