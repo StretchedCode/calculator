@@ -10,7 +10,7 @@ numbers.forEach(number => {
 
 function updateDisplay(number){
     
-    if (displayNum.length > 11){
+    if (displayNum.length < 11){
         displayNum += number;
         display.textContent = displayNum;
     }
