@@ -16,6 +16,7 @@ body{
 }
 
 .display{
+    display: flex;
     height: 100px;
     width: 400px;
     background-color: lightgrey;
@@ -23,4 +24,11 @@ body{
     border-radius: 3px;
     border-top: 5px;
     border: thin solid black;
+    justify-content: end;
+    align-items: flex-end;
+}
+
+.display-text{
+  font-size: 70px;
+  margin: 5px;
 }
